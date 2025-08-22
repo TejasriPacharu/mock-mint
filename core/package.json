@@ -1,13 +1,26 @@
 {
-  "name": "core",
+  "name": "@mock-mint/core",
   "version": "1.0.0",
-  "description": "",
+  "description": "Core library for mock-mint data generation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "mock-data",
+    "faker",
+    "schema",
+    "data-generation"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "ajv": "^8.12.0",
+    "axios": "^1.6.0",
+    "csv-stringify": "^6.4.4",
+    "joi": "^17.11.0",
+    "lodash": "^4.17.21"
+  }
 }
